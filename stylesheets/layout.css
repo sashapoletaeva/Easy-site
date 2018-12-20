@@ -1,0 +1,72 @@
+* {
+ box-sizing: border-box;
+
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+
+  width: 100vw;
+  padding: 15px 20px;
+
+  background-color: rgba(255, 255, 255, 0.5);
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.is-hero {
+  padding: 110px 13px 80px;
+
+  text-align: center;
+}
+
+h1 {
+  padding-bottom: 20px;
+
+  text-align: center;
+
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+section.is-hero p {
+  padding-bottom: 30px;
+}
+
+p {
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.btn {
+  padding: 9px 30px;
+
+  text-decoration: none;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn.is-danger {
+  color: #fff;
+  border-radius: 2px;
+  background: linear-gradient(180deg, rgba(234, 56, 54, 0.75) 0%, rgba(234, 56, 54, 0.3) 119.05%);
+  box-shadow: 0px 6px 12px rgba(234, 56, 54, 0.25);
+  text-shadow: 0px 0px 8px #EA3836;
+
+}
