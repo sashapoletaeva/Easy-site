@@ -107,3 +107,16 @@ p {
   font-size: 16px;
   font-weight: 700;
 }
+
+.is-reviews {
+  color: #fff;
+  background-color: #383856;
+}
+
+.is-reviews h2 {
+  text-align: center;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
