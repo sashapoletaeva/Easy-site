@@ -113,10 +113,158 @@ p {
   background-color: #383856;
 }
 
-.is-reviews h2 {
+.is-reviews h2,
+.is-price h2 {
   text-align: center;
 
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 700;
+}
+
+blockquote {
+  position: relative;
+
+  max-width: 360px;
+  margin: 0 auto 20px;
+  padding: 60px 20px 25px 30px;
+
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+blockquote::before {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+
+  width: 24px;
+  height: 24px;
+
+  content: "";
+
+  background-image: url(../img/quote.svg);
+}
+
+blockquote:last-of-type {
+  margin-bottom: 0;
+}
+
+q {
+  display: inline-block;
+
+  padding-bottom: 30px;
+
+  font-family: "Times New Roman", serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+cite {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+blockquote footer {
+  display: flex;
+
+  align-items: center;
+}
+
+blockquote footer img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.is-price {
+  padding: 0 30px;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.is-price h2 {
+  padding-top: 60px;
+  padding-bottom: 30px;
+
+}
+
+.is-price article {
+  padding: 20px 20px 40px;
+}
+
+.is-price h3 {
+  line-height: 120%;
+}
+
+.is-price h4 {
+  position: relative;
+
+  padding-bottom: 34px;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.is-price h4::after {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+
+  width: 100%;
+
+  content: "";
+
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+
+}
+
+.is-price ul {
+  padding-left: 35px;
+}
+
+.is-price ul li {
+  position: relative;
+
+  padding-right: 23px;
+  padding-bottom: 19px;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-size: 14px;
+}
+
+.is-price ul li:last-child {
+  padding-bottom: 0;
+}
+
+/* 19px - .is-price ul li { padding-bottom: 19px;} */
+
+.is-price ul li::before {
+  position: absolute;
+  top: calc(50% - 19px);
+  left: -25px;
+
+  width: 10px;
+  height: 10px;
+
+  content: "";
+  transform: translateY(50%);
+
+  border-radius: 50%;
+  background-color: #FFAC3E;
+}
+
+.is-price .btn {
+  margin-top: 48px;
+
+  color: black;
+  border-radius: 2px;
+  background: #FFAC3E;
+}
+
+.is-price article:first-of-type {
+  margin-bottom: 30px;
 }
