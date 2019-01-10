@@ -21,16 +21,15 @@ header {
   align-items: center;
 }
 
-section.is-hero {
+.is-hero {
   padding: 110px 13px 80px;
 
   text-align: center;
+
 }
 
 h1 {
   padding-bottom: 20px;
-
-  text-align: center;
 
   font-family: Roboto, sans-serif;
   font-size: 24px;
@@ -38,13 +37,11 @@ h1 {
   line-height: 1.2;
 }
 
-section.is-hero p {
+.is-hero p {
   padding-bottom: 30px;
 }
 
 p {
-  text-align: center;
-
   color: rgba(0, 0, 0, 0.5);
 
   font-family: "Roboto", sans-serif;
@@ -113,6 +110,10 @@ p {
   background-color: #383856;
 }
 
+.is-reviews h2 {
+  padding-top: 30px;
+}
+
 .is-reviews h2,
 .is-price h2 {
   text-align: center;
@@ -126,7 +127,7 @@ blockquote {
   position: relative;
 
   max-width: 360px;
-  margin: 0 auto 20px;
+  margin: 30px 30px 20px;
   padding: 60px 20px 25px 30px;
 
   border-radius: 3px;
@@ -267,4 +268,21 @@ blockquote footer img {
 
 .is-price article:first-of-type {
   margin-bottom: 30px;
+}
+
+.the-last-true-footer {
+  display: flex;
+
+  padding: 96px 15px 13px;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+
+  justify-content: space-between;
+}
+
+.the-last-true-footer a {
+  color: rgba(0, 0, 0, 0.5);
 }

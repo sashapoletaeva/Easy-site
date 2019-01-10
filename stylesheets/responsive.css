@@ -1,0 +1,44 @@
+@media (min-width: 768px) {
+ header {
+   padding: 20px 30px;
+ }
+  .is-hero {
+   display: flex;
+
+   height: 90vh;
+   /* min-height: 600px; */
+   padding: 30px 90px;
+   padding-left: 80px;
+
+   text-align: left;
+
+   align-items: center;
+ }
+
+ .is-hero-inner {
+   position: relative;
+
+   width: 100%;
+ }
+
+ .is-hero-inner::after {
+   position: absolute;
+   top: 50%;
+
+   width: 236px;
+   height: 425px;
+
+   content: "";
+   transform: rotate(5deg) translateY(-50%);
+
+   background-image: url(../img/iphone-white.png);
+   background-size: cover;
+ }
+
+ .is-hero h1,
+ .is-hero p {
+   width: 280px;
+ }
+
+
+}
