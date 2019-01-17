@@ -39,5 +39,31 @@
    width: 280px;
  }
 
+ .is-advantages {
+   padding: 60px 90px 90px;
+ }
+ .is-advantages h2 {
+   display: block;
+
+   padding-bottom: 30px;
+ }
+
+ .advantages-wrapper {
+   display: flex;
+
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+ }
+
+.is-advantages article {
+  width: calc(50% - 34px);
+  min-width: 260px;
+  max-width: 600px;
+  height: 292px;
+  margin: 0;
+  margin-bottom: 60px;
+  padding-top: 6%;
+}
 
 }
