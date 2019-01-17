@@ -92,7 +92,7 @@
 }
 
 .is-price {
-    padding: 60px 90px 90px;
+    padding: 60px 90px 0;
 
 }
 
@@ -135,6 +135,10 @@
 
 .is-price h4::after {
   bottom: 25px;
+}
+
+.the-last-true-footer {
+  padding: 60px 90px 30px;
 }
 
 }

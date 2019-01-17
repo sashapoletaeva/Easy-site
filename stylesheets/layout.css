@@ -111,6 +111,8 @@ p {
 }
 
 .is-reviews {
+  padding-bottom: 30px;
+
   color: #fff;
   background-color: #383856;
 }
