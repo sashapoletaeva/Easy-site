@@ -81,6 +81,10 @@ p {
 
 }
 
+.is-advantages h2 {
+  display: none;
+}
+
 .is-advantages article {
   max-width: 360px;
   margin: 0 auto;
@@ -238,15 +242,15 @@ blockquote footer img {
   font-size: 14px;
 }
 
-.is-price ul li:last-child {
+/* .is-price ul li:last-child {
   padding-bottom: 0;
-}
+} */
 
 /* 19px - .is-price ul li { padding-bottom: 19px;} */
 
 .is-price ul li::before {
   position: absolute;
-  top: calc(50% - 19px);
+  top: calc(50% - 18px);
   left: -25px;
 
   width: 10px;
@@ -260,7 +264,7 @@ blockquote footer img {
 }
 
 .is-price .btn {
-  margin-top: 48px;
+  margin-top: 37px;
 
   color: black;
   border-radius: 2px;
